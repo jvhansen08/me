@@ -7,7 +7,6 @@
 * Typescript
 * HTML
 * CSS
-* MUI
 * Vite
 * Yarn
 * Node
