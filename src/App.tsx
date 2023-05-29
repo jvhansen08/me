@@ -4,11 +4,13 @@ import { Projects } from './pages/Projects';
 import { About } from './pages/About';
 import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Error } from './pages/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <Error />,
     children: [
       {
         path: "home",

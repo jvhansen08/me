@@ -7,7 +7,7 @@ export function Project(props: ProjectProps) {
                 <img src={props.imgSrc} alt={props.imgAlt} width={300} className="project-img" />
             </div>
             <div className="project-overlay">
-                <div className="project-text">{props.description}</div>
+                <div className="project-text">{props.title}: {props.description}</div>
                 <span className="button-container">
                     <a href={props.sourceCodeLink} target="page">
                         <button>View Source Code</button>

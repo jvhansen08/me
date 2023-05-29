@@ -6,9 +6,9 @@ export function Projects() {
     const projects = ProjectList();
 
     return(
-        <>
-            <h1>Projects page</h1>
-            <h3 style={{paddingBottom: "30px"}}>Hover over any image to learn more!</h3>
+        <div className="outline-letters">
+            <h1>Projects</h1>
+            <h3 style={{paddingBottom: "30px", fontSize: "20px" }}>Hover over any image to learn more.</h3>
             <div className="projects-container">
                 {projects.map((proj: ProjectProps, index: number) => (
                     <div key={index}>
@@ -18,6 +18,6 @@ export function Projects() {
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     )
 }

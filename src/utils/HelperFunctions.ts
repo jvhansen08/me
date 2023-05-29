@@ -5,6 +5,7 @@ export function Pages() {
             home: "Home",
             projects: "Projects",
             about: "About",
+            // comingSoon: "Coming Soon!"
         }
     )
 }
@@ -34,7 +35,7 @@ export function ProjectList() {
             description: "A Java program that spins up a simple shell; it makes system calls to implement a variety of commands that shadow linux commands and passes other commands to parent shell",
             technologies: "Java, Operating Systems, Gradle",
             sourceCodeLink: "https://github.com/jvhansen08/SimpleTerminal",
-            title: "Board Game Keep",
+            title: "Simple Terminal",
         },
         {
             imgSrc: "src/assets/boardgamekeep.png",
