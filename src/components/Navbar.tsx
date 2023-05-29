@@ -1,24 +1,3 @@
-// import { Link } from "react-router-dom";
-
-// export function Navbar() {
-//     return(
-//         <div className="navbar">
-//             <li className="tab">
-//                 <Link to="home">Home</Link>
-//             </li>
-//             <li className="tab">
-//                 <Link to="projects">Projects</Link>
-//             </li>
-//             <li className="tab">
-//                 <Link to="about">About</Link>
-//             </li>
-//             <li className="tab">
-//                 <Link to="contact">Contact Me</Link>
-//             </li>
-//         </div>
-//     )
-// }
-
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';

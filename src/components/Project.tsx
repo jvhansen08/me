@@ -8,14 +8,16 @@ export function Project(props: ProjectProps) {
             </div>
             <div className="project-overlay">
                 <div className="project-text">{props.description}</div>
-                <a href={props.sourceCodeLink} target="page">
-                    <button>View Source Code</button>
-                </a>
-                {props.productLink &&
-                    <a href={props.productLink} target="page">
-                        <button>View Product</button>
+                <span className="button-container">
+                    <a href={props.sourceCodeLink} target="page">
+                        <button>View Source Code</button>
                     </a>
-                }
+                    {props.productLink &&
+                        <a href={props.productLink} target="page">
+                            <button>View Product</button>
+                        </a>
+                    }
+                </span>
             </div>
         </div>
     )
