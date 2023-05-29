@@ -55,16 +55,11 @@ Link {
 }
 
 .project-img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   width: 25vw;
   height: 25vw;
+  height: auto;
   border-radius: 5%;
 }
-
 .project-overlay {
   position: absolute;
   top: 0;
@@ -131,4 +126,6 @@ button:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
