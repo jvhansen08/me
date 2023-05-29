@@ -9,11 +9,13 @@ export function Root(){
     }, [])
 
     return (
-        <>
+        <div>
             <div>
                 <Navbar />
             </div>
-            <Outlet />
-        </>
+            <div style={{marginLeft: '5vw', marginRight: '5vw'}}>
+                <Outlet />
+            </div>
+        </div>
     )
 }

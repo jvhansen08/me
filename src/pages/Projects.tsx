@@ -8,6 +8,7 @@ export function Projects() {
     return(
         <>
             <h1>Projects page</h1>
+            <h3 style={{paddingBottom: "30px"}}>Hover over any image to learn more!</h3>
             <div className="projects-container">
                 {projects.map((proj: ProjectProps, index: number) => (
                     <div key={index}>

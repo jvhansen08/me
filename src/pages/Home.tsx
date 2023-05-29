@@ -1,25 +1,19 @@
 export function Home() {
+    const seq = [
+        "Hi.",
+        "I'm Jared",
+        "It's nice to meet you!"
+    ]
     return(
-        <>
-            <h1>Home page</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At imperdiet dui accumsan sit amet nulla facilisi. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Fringilla ut morbi tincidunt augue interdum velit euismod. Nisl vel pretium lectus quam id leo in vitae. Sed adipiscing diam donec adipiscing tristique risus nec. Eu facilisis sed odio morbi quis commodo odio aenean. Viverra accumsan in nisl nisi scelerisque. In iaculis nunc sed augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Leo in vitae turpis massa sed. In iaculis nunc sed augue. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Suscipit tellus mauris a diam maecenas sed enim ut.
-
-Tortor posuere ac ut consequat semper viverra nam libero. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Nisi est sit amet facilisis magna etiam tempor orci. Cursus risus at ultrices mi tempus imperdiet. Id diam maecenas ultricies mi eget mauris pharetra et. Integer malesuada nunc vel risus commodo viverra. Non pulvinar neque laoreet suspendisse interdum consectetur. Fringilla urna porttitor rhoncus dolor purus non enim praesent. Aenean vel elit scelerisque mauris. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Lacus sed turpis tincidunt id aliquet risus feugiat in. Consequat id porta nibh venenatis. Egestas congue quisque egestas diam in arcu cursus euismod quis.
-
-Arcu bibendum at varius vel pharetra vel turpis nunc. Nisi vitae suscipit tellus mauris a diam maecenas. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Pulvinar pellentesque habitant morbi tristique senectus et. Facilisis sed odio morbi quis commodo odio. Eget aliquet nibh praesent tristique magna sit amet. Diam volutpat commodo sed egestas egestas fringilla. Nisl rhoncus mattis rhoncus urna. Interdum consectetur libero id faucibus. Et netus et malesuada fames ac turpis egestas maecenas pharetra. Amet justo donec enim diam vulputate ut pharetra. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Pretium viverra suspendisse potenti nullam ac tortor. Sodales ut etiam sit amet nisl purus. Pellentesque habitant morbi tristique senectus et netus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Nisl purus in mollis nunc sed id semper. In hac habitasse platea dictumst quisque.
-
-A iaculis at erat pellentesque adipiscing. Pulvinar mattis nunc sed blandit libero volutpat. Hac habitasse platea dictumst quisque sagittis purus sit. Purus non enim praesent elementum facilisis leo. Odio morbi quis commodo odio aenean. Sit amet cursus sit amet dictum. Gravida arcu ac tortor dignissim. Vestibulum lorem sed risus ultricies tristique nulla. Semper feugiat nibh sed pulvinar. Sit amet tellus cras adipiscing enim eu. Enim facilisis gravida neque convallis.
-
-Integer eget aliquet nibh praesent. Elit eget gravida cum sociis natoque penatibus. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Nulla facilisi morbi tempus iaculis. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Nisi porta lorem mollis aliquam ut porttitor leo. At auctor urna nunc id cursus metus aliquam eleifend mi. Feugiat in ante metus dictum at tempor commodo. Ipsum faucibus vitae aliquet nec. Accumsan sit amet nulla facilisi morbi tempus iaculis. Nulla aliquet enim tortor at auctor urna nunc. Orci porta non pulvinar neque.</p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At imperdiet dui accumsan sit amet nulla facilisi. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi. Fringilla ut morbi tincidunt augue interdum velit euismod. Nisl vel pretium lectus quam id leo in vitae. Sed adipiscing diam donec adipiscing tristique risus nec. Eu facilisis sed odio morbi quis commodo odio aenean. Viverra accumsan in nisl nisi scelerisque. In iaculis nunc sed augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Leo in vitae turpis massa sed. In iaculis nunc sed augue. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Suscipit tellus mauris a diam maecenas sed enim ut.
-
-Tortor posuere ac ut consequat semper viverra nam libero. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Nisi est sit amet facilisis magna etiam tempor orci. Cursus risus at ultrices mi tempus imperdiet. Id diam maecenas ultricies mi eget mauris pharetra et. Integer malesuada nunc vel risus commodo viverra. Non pulvinar neque laoreet suspendisse interdum consectetur. Fringilla urna porttitor rhoncus dolor purus non enim praesent. Aenean vel elit scelerisque mauris. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Lacus sed turpis tincidunt id aliquet risus feugiat in. Consequat id porta nibh venenatis. Egestas congue quisque egestas diam in arcu cursus euismod quis.
-
-Arcu bibendum at varius vel pharetra vel turpis nunc. Nisi vitae suscipit tellus mauris a diam maecenas. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Pulvinar pellentesque habitant morbi tristique senectus et. Facilisis sed odio morbi quis commodo odio. Eget aliquet nibh praesent tristique magna sit amet. Diam volutpat commodo sed egestas egestas fringilla. Nisl rhoncus mattis rhoncus urna. Interdum consectetur libero id faucibus. Et netus et malesuada fames ac turpis egestas maecenas pharetra. Amet justo donec enim diam vulputate ut pharetra. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Pretium viverra suspendisse potenti nullam ac tortor. Sodales ut etiam sit amet nisl purus. Pellentesque habitant morbi tristique senectus et netus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Nisl purus in mollis nunc sed id semper. In hac habitasse platea dictumst quisque.
-
-A iaculis at erat pellentesque adipiscing. Pulvinar mattis nunc sed blandit libero volutpat. Hac habitasse platea dictumst quisque sagittis purus sit. Purus non enim praesent elementum facilisis leo. Odio morbi quis commodo odio aenean. Sit amet cursus sit amet dictum. Gravida arcu ac tortor dignissim. Vestibulum lorem sed risus ultricies tristique nulla. Semper feugiat nibh sed pulvinar. Sit amet tellus cras adipiscing enim eu. Enim facilisis gravida neque convallis.
-
-Integer eget aliquet nibh praesent. Elit eget gravida cum sociis natoque penatibus. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Nulla facilisi morbi tempus iaculis. Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Nisi porta lorem mollis aliquam ut porttitor leo. At auctor urna nunc id cursus metus aliquam eleifend mi. Feugiat in ante metus dictum at tempor commodo. Ipsum faucibus vitae aliquet nec. Accumsan sit amet nulla facilisi morbi tempus iaculis. Nulla aliquet enim tortor at auctor urna nunc. Orci porta non pulvinar neque.
-        </>
+        <div style={{backgroundColor: 'navy'}}>
+            {seq.map((phrase) => (
+                <p style={{
+                    fontSize: '30px',
+                    color: 'white',
+                }}>
+                    {phrase}
+                </p>
+            ))}
+        </div>
     )
 }
