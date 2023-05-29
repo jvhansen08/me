@@ -10,7 +10,9 @@ export function Root(){
 
     return (
         <>
-            <Navbar />
+            <div>
+                <Navbar />
+            </div>
             <Outlet />
         </>
     )
