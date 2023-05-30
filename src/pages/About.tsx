@@ -1,3 +1,5 @@
+import profileCircle from '../assets/profileCircle.png';
+
 export function About() {
     return(
         <div style={{fontSize: '20px', color: 'white', paddingTop: '2%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} className="outline-letters">
@@ -16,7 +18,7 @@ export function About() {
                     </div>
                 </span>
                 <a href="mailto:jaredvhansen@gmail.com" target="page" style={{color: 'white'}}><p>jaredvhansen@gmail.com</p></a>
-                <img src="src/assets/profileCircle.png" alt="" width='150px' style={{padding: '2%'}} />
+                <img src={profileCircle} alt="" width='150px' style={{padding: '2%'}} />
             </div>
 
         </div>

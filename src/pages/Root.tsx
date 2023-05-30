@@ -5,7 +5,7 @@ import { Navbar } from '../components/Navbar';
 export function Root(){
     const navigate = useNavigate();
     useEffect(() => {
-        navigate("/home");
+        navigate("/me/home");
     }, [])
 
     return (
