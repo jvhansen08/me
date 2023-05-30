@@ -7,9 +7,9 @@ import boardgame from "../assets/boardgamekeep.png"
 export function Pages() {
     return (
         {
-            "/me/home": "Home",
-            "/me/projects": "Projects",
-            "/me/about": "About",
+            "/home": "Home",
+            "/projects": "Projects",
+            "/about": "About",
             // comingSoon: "Coming Soon!"
         }
     )
