@@ -5,9 +5,7 @@ import { Navbar } from '../components/Navbar';
 export function Root(){
     const navigate = useNavigate();
     useEffect(() => {
-        console.log("rerouting!");
-        
-        navigate("me/home");
+        navigate("home");
     }, [])
 
     return (
