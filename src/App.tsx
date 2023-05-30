@@ -8,20 +8,20 @@ import { Error } from './pages/Error';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/me",
     element: <Root />,
     errorElement: <Error />,
     children: [
       {
-        path: "/home",
+        path: "/me/home",
         element: <Home />
       },
       {
-        path: "/projects",
+        path: "/me/projects",
         element: <Projects />
       },
       {
-        path: "/about",
+        path: "/me/about",
         element: <About />
       },
     ]

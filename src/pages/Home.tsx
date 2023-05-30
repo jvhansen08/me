@@ -6,7 +6,7 @@ export function Home() {
     ]
     return(
         <div className="about-container" style={{textAlign: "initial"}}>
-            <img src="src/assets/me-off-center2.jpg" alt="A close-up image of a young man wearing a blue Utah State shirt" style={{width: "100%"}} />
+            <img src="../src/assets/me-off-center2.jpg" alt="A close-up image of a young man wearing a blue Utah State shirt" style={{width: "100%"}} />
             <div className="about-body" style={{maxWidth: "50%", fontSize: "20px"}}>
                 {seq.map((phrase, index) => (
                     <p style={{fontSize: '40px', fontWeight: 'bold', color: '#2c2f4c',}} key={index}>

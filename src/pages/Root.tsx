@@ -7,7 +7,7 @@ export function Root(){
     useEffect(() => {
         console.log("rerouting!");
         
-        navigate("/home");
+        navigate("me/home");
     }, [])
 
     return (
