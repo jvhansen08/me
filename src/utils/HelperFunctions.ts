@@ -50,12 +50,15 @@ export function ProjectList() {
             sourceCodeLink: "https://github.com/jvhansen08/BoardGameKeep",
             productLink: "https://boardgamekeep.com",
             title: "Board Game Keep",
+        },
+        {
+            imgSrc: "src/assets/turnedAround.png",
+            imgAlt: "A maze with a ball, two portals, and a goal, displayed on a phone screen",
+            description: "An Android app that generates mazes and, accessing data from the gyroscope, allows the user to solve those mazes by tilting the phone",
+            technologies: "Android Studio, Java, XML",
+            sourceCodeLink: "https://github.com/jvhansen08/TurnedAround",
+            productLink: "https://play.google.com/store/apps/details?id=com.turnedaround.mazegame",
+            title: "Turned Around",
         }
-        // {
-        //     imgSrc: "src/assets/turnedAround.png",
-        //     imgAlt: "A maze with a ball, two portals, and a goal, displayed on a phone screen",
-        //     description: "An Android app that generates mazes and, accessing data from the gyroscope, allows the user to solve those mazes by tilting the phone",
-        //     technologies: "Android Studio, Java, XML",
-        // }
     ]
 }
