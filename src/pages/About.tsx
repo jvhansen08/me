@@ -16,7 +16,7 @@ export function About() {
                     </div>
                 </span>
                 <a href="mailto:jaredvhansen@gmail.com" target="page" style={{color: 'white'}}><p>jaredvhansen@gmail.com</p></a>
-                <img src="../src/assets/profileCircle.png" alt="" width='150px' style={{padding: '2%'}} />
+                <img src="src/assets/profileCircle.png" alt="" width='150px' style={{padding: '2%'}} />
             </div>
 
         </div>
