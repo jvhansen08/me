@@ -1,7 +1,8 @@
 import galaga from "../assets/galaga.png";
 import babyYoda from "../assets/babyYodaSquare.png";
 import terminal from "../assets/terminal.png";
-import boardgame from "../assets/boardgamekeep.png"
+import boardgame from "../assets/boardgamekeep.png";
+import turnedAround from "../assets/turnedAround.png";
 
 
 export function Pages() {
@@ -52,7 +53,7 @@ export function ProjectList() {
             title: "Board Game Keep",
         },
         {
-            imgSrc: "src/assets/turnedAround.png",
+            imgSrc: turnedAround,
             imgAlt: "A maze with a ball, two portals, and a goal, displayed on a phone screen",
             description: "An Android app that generates mazes and, accessing data from the gyroscope, allows the user to solve those mazes by tilting the phone",
             technologies: "Android Studio, Java, XML",
