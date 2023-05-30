@@ -1,6 +1,7 @@
 import { Pages } from '../utils/HelperFunctions';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import logo from "../assets/logo.png";
 
 const pages = Pages();
 
@@ -12,7 +13,7 @@ export function Navbar() {
     <div className='navbar'>
       <div className='navbar-name' style={{color: 'white', paddingLeft: '2%'}}>
         <span style={{display:"flex", flexDirection:'row', alignItems: 'center', justifyContent: 'space-around'}}>
-          <img src="../src/assets/logo.png" alt="" width='60px' height='60px'/>
+          <img src={logo} alt="" width='60px' height='60px'/>
           <div>
             <p style={{fontSize: '50px', margin: 0}}>Jared Hansen</p>
             <h1 style={{fontSize: '25px', margin: 0}}>Software Developer</h1>
