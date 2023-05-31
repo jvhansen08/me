@@ -7,7 +7,7 @@ const pages = Pages();
 
 export function Navbar() {
   const navigate = useNavigate();
-  const [current, setCurrent] = useState("home");
+  const [current, setCurrent] = useState("/home");
 
   return (
     <div className='navbar'>
